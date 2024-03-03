@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_instagram_1/utils/dimensions.dart';
+import 'package:flutter_facebook_1/utils/dimensions.dart';
 
 class WebScreenLayout extends StatelessWidget {
 

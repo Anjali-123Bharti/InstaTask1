@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'utils/colors.dart';
-import 'package:flutter_instagram_1/responsive/responsive_layout_screen.dart';
+import 'package:flutter_facebook_1/responsive/responsive_layout_screen.dart';
 import 'responsive/mobile_Screen_Layout.dart';
 import 'responsive/web_Screen_Layout.dart';
+
 import 'pages/login_page.dart';
-import 'pages/home_page.dart';
 // ignore: depend_on_referenced_packages
 
 // import 'package:firebase_core/firebase_core.dart';
@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: new ThemeData(
-      
+       
 
-      scaffoldBackgroundColor:Color.fromRGBO(38, 38, 38, 1),),
+      scaffoldBackgroundColor:Color(0xff3b5998),),
 
       debugShowCheckedModeBanner: false,
 
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       //   mobileScreenLayout: MobileScreenLayout(),
       //   webScreenLayout: WebScreenLayout(),
       // ),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
